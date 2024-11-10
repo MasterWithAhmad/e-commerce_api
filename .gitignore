@@ -1,0 +1,42 @@
+﻿# ASP.NET Core and .NET build files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# ASP.NET Core environment and configuration files
+appsettings.*.json
+appsettings.*.xml
+local.settings.json
+
+# User and IDE-specific files
+.vscode/
+.vs/
+*.user
+*.rsuser
+*.suo
+
+# Blazor WebAssembly and JavaScript/React files
+OnlineStore.Client/node_modules/
+OnlineStore.Server/node_modules/
+
+# Dependency folders (e.g., NuGet and NPM packages)
+packages/
+node_modules/
+wwwroot/lib/
+
+# macOS files
+.DS_Store
+
+# Windows Thumbs.db file
+Thumbs.db
+
+# Publish output
+publish/
+publishOutput/
+dist/
